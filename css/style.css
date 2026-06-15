@@ -1,6 +1,4 @@
 body {
-
-body {
     background-color: #111;
     color: #e8d8ff;
     font-family: "Yu Gothic", sans-serif;
@@ -87,5 +85,4 @@ footer {
 #menu a {
     display: block;
     margin: 10px 0;
-}
 }
