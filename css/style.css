@@ -2,7 +2,14 @@
 body {
     background-color: #111;
     color: #e8d8ff;
-    font-family: "Yu Gothic", sans-serif;
+    
+    /*フォント設定*/
+    
+    font-family:
+    "Yu Mincho",
+    "Hiragino Mincho ProN",
+    serif;
+
     margin: 0;
 }
 
