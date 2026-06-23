@@ -205,3 +205,71 @@ footer {
 
     margin: 3px;
 }
+
+/*.☆.* 固定ヘッダー *.☆.*/
+
+.site-header {
+
+    position: fixed;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+
+    height: 90px;
+
+    background: rgba(20, 20, 25, 0.95);
+
+    border-bottom: 1px solid #4d3a67;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    z-index: 9999;
+
+    backdrop-filter: blur(6px);
+}
+
+/*.☆.* ブログ名 *.☆.*/
+
+.site-title {
+
+    text-align: center;
+}
+
+/*.☆.* タイトル *.☆.*/
+
+.site-title h1 {
+
+    margin: 0;
+
+    font-size: 1.8em;
+
+    color: #f3e7ff;
+}
+
+/*.☆.* サブタイトル *.☆.*/
+
+.site-subtitle {
+
+    margin: 3px 0 0 0;
+
+    color: #b88cff;
+
+    font-size: 0.8em;
+
+    letter-spacing: 2px;
+
+    font-style: italic;
+}
+
+/*.☆.* ヘッダーに隠れないように本文を下げる *.☆.*/
+
+main {
+
+    padding-top: 120px;
+}
