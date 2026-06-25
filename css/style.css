@@ -217,9 +217,12 @@ footer {
     margin: 3px;
 }
 
+/* ｡:*:☆•·················•·················•·················•☆:*｡*/
+/* ☆☆☆ 各部屋　固定ヘッダー */
+/* ｡:*:☆•·················•·················•·················•☆:*｡*/
 /*.☆.* 固定ヘッダー *.☆.*/
 
-.site-header {
+.header-bar {
 
     position: fixed;
 
@@ -245,33 +248,33 @@ footer {
     backdrop-filter: blur(6px);
 }
 
-/*.☆.* ブログ名 *.☆.*/
+/*.☆.* 固定ヘッダーブログ名 *.☆.*/
 
-.site-title {
+.header-title {
 
     text-align: center;
 }
 
-/*.☆.* タイトル *.☆.*/
+/*.☆.* 固定ヘッダータイトル *.☆.*/
 
-.site-title h1 {
+.header-title h1 {
 
     margin: 0;
 
-    font-size: 1.8em;
+    font-size: 1.4rem;
 
     color: #f3e7ff;
 }
 
-/*.☆.* サブタイトル *.☆.*/
+/*.☆.* 固定ヘッダーサブタイトル *.☆.*/
 
-.site-subtitle {
+.header-subtitle {
 
     margin: 3px 0 0 0;
 
     color: #b88cff;
 
-    font-size: 0.8em;
+    font-size: 0.75rem;
 
     letter-spacing: 2px;
 
