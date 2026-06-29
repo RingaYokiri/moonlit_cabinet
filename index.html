@@ -14,6 +14,7 @@
 
     <!-- *.☆.* CSSサブルーチン呼び出し *.☆.* -->
     <link rel="stylesheet" href="css/style.css">
+   
 </head>
 
 
@@ -112,21 +113,10 @@
 <!-- ｡:*:☆•·················•·················•·················•☆:*｡-->
 <!-- ☆☆☆ その他 -->
 <!-- ｡:*:☆•·················•·················•·················•☆:*｡-->
-
-<!-- *.☆.* 月の導き開閉メニュー *.☆.* -->
- <button id="menuButton">☾</button>
-
-<nav id="menu">
-    <a href="index.html">Home</a>
-    <a href="article_template.html">Profile</a>
-    <a href="#">Home</a>
-    <a href="#">Diary</a>
-    <a href="#">Gallery</a>
-    <a href="#">Travel</a>
-    <a href="#">Gem</a>
-</nav>
-    
-<!-- *.☆.* 月の導き開閉メニュー　サブルーチン呼び出し(JabaScript) *.☆.* -->
+<!-- *.☆.* jekyll 月の導きmenu呼び出し *.☆.* -->
+    {% include menu.html %}
+ 
+<!-- *.☆.* 月の導き開閉メニュー　サブルーチン呼び出し(JavaScript) *.☆.* -->
     <script src="js/menu.js"></script>
 
 </body>
