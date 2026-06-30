@@ -1,0 +1,31 @@
+---
+layout: article_template
+title: 更新履歴
+subtitle: Update Log
+---
+
+<div class="card">
+
+<h2>更新履歴</h2>
+
+{% for post in site.posts %}
+
+<hr>
+
+<h3>
+    <a href="{{ post.url | relative_url }}">
+        {{ post.title }}
+    </a>
+</h3>
+
+<p>
+📅 {{ post.date | date: "%Y.%m.%d" }}
+</p>
+
+<p>
+{{ post.subtitle }}
+</p>
+
+{% endfor %}
+
+</div>
