@@ -6,44 +6,49 @@ title: 館内更新記録
 subtitle: Update Log
 ---
 
-<div class="card">
+<!-- ｡:*:☆•·················•·················•·················•☆:*｡-->
+<!-- ☆☆☆ 更新履歴タイトル -->
+<!-- ｡:*:☆•·················•·················•·················•☆:*｡-->
 
-    <h2>{{ page.title }}</h2>
+<div class="update-title-card">
 
+    <!-- *.☆.* ページタイトル *.☆.* -->
+    <h2>
+        {{ page.title }}
+    </h2>
+
+    <!-- *.☆.* サブタイトル *.☆.* -->
     <p class="article-subtitle">
-
         {{ page.subtitle }}
-
     </p>
-
-    <hr>
-
-    {% for post in site.posts %}
-
-    <p>
-
-        📅 {{ post.date | date: "%Y.%m.%d" }}
-
-    </p>
-
-    <h3>
-
-        <a href="{{ post.url | relative_url }}">
-
-            {{ post.title }}
-
-        </a>
-
-    </h3>
-
-    <p>
-
-        {{ post.subtitle }}
-
-    </p>
-
-    <hr>
-
-    {% endfor %}
 
 </div>
+
+<!-- ｡:*:☆•·················•·················•·················•☆:*｡-->
+<!-- ☆☆☆ 更新履歴一覧 -->
+<!-- ｡:*:☆•·················•·················•·················•☆:*｡-->
+
+{% for post in site.posts %}
+
+<div class="update-card">
+
+    <!-- *.☆.* 更新日 *.☆.* -->
+    <p class="update-date">
+        📅 {{ post.date | date: "%Y.%m.%d" }}
+    </p>
+
+    <!-- *.☆.* タイトル *.☆.* -->
+    <h3>
+        <a href="{{ post.url | relative_url }}">
+            {{ post.title }}
+        </a>
+    </h3>
+
+    <!-- *.☆.* サブタイトル *.☆.* -->
+    <p class="article-subtitle">
+        {{ post.subtitle }}
+    </p>
+
+</div>
+
+{% endfor %}
