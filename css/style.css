@@ -345,3 +345,47 @@ footer {
     border-radius: 8px;
 
 }
+
+/* ｡:*:☆•·················•·················•·················•☆:*｡ */
+/* ☆☆☆ 記録ラベル（共通） */
+/* ｡:*:☆•·················•·················•·················•☆:*｡ */
+
+.record-info{
+
+    margin-bottom: 10px;
+
+}
+
+.record-badge{
+
+    display: inline-block;
+
+    margin-right: 6px;
+
+    margin-bottom: 6px;
+
+    padding: 3px 8px;
+
+    border: 1px solid #666;
+
+    border-radius: 6px;
+
+    font-size: 0.85rem;
+
+}
+
+/* *.☆.* 日付 *.☆.* */
+.date-badge{
+
+}
+
+/* *.☆.* 館内記録 *.☆.* */
+.museum-badge{
+
+}
+
+/* *.☆.* 部屋記録 *.☆.* */
+.room-badge{
+
+}
+
