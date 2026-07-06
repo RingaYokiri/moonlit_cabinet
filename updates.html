@@ -12,6 +12,33 @@ subtitle: Update Log
 
 <div class="update-title-card">
 
+    <!-- *.☆.* 記録情報 *.☆.* -->
+    <div class="record-info">
+
+        <!-- *.☆.* 日付 *.☆.* -->
+        <span class="record-badge date-badge">
+
+            📅 {{ post.date | date: "%Y.%m.%d" }}
+
+        </span>
+
+        <!-- *.☆.* 館内記録 *.☆.* -->
+        <span class="record-badge museum-badge">
+
+            📖 {{ post.museum_number }}
+
+        </span>
+
+        <!-- *.☆.* 部屋記録 *.☆.* -->
+        <span class="record-badge room-badge">
+
+            🌹 {{ post.room_number }}
+
+        </span>
+
+    </div>
+
+
     <!-- *.☆.* ページタイトル *.☆.* -->
     <h2>
         {{ page.title }}
