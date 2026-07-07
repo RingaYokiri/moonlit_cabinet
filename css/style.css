@@ -138,6 +138,8 @@ footer {
 
     font-size: 24px;
     cursor: pointer;
+    
+    z-index: 10000;
 }
 
 #menu {
